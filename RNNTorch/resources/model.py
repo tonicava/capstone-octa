@@ -8,7 +8,7 @@ class Regression(nn.Module):
     The network will accept the given features as input, and produce 
     a float value that is the price prediction.
     
-    We use MSELoss to train the network
+    We use RMSELoss to train the network
     """
 
     def __init__(self, input_features, hidden_dim1, hidden_dim2, output_dim):
