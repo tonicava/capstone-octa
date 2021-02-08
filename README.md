@@ -1,8 +1,11 @@
 The present repository has the following structure:
 
 .
+
 +-- README.md
+
 +-- Report.pdf
+
 +-- data
 |   +-- price_test_xgb.csv
 |   +-- price_test_xgb.csv.out
