@@ -1,27 +1,49 @@
 The present repository has the following structure:
 
 .
+
 ├── DataExploration
+
 │   └── DataExploration.ipynb
+
 ├── README.md
+
 ├── RNNTorch
+
 │   ├── RNNTorchModel.ipynb
+
 │   └── resources
+
 │       ├── model.py
+
 │       ├── predict.py
+
 │       ├── test_nn.csv
+
 │       ├── train.py
+
 │       └── train_nn.csv
+
 ├── Report.pdf
+
 ├── XGBoost
+
 │   └── XGBoostModel.ipynb
+
 ├── data
+
 │   ├── price_test_xgb.csv
+
 │   ├── price_test_xgb.csv.out
+
 │   ├── price_train_xgb.csv
+
 │   ├── price_validation_xgb.csv
+
 │   ├── train.tsv
+
 │   └── y_price_test_xgb.csv
+
 └── proposal.pdf
 
 
