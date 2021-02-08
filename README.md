@@ -1,26 +1,29 @@
 The present repository has the following structure:
 
-├── DataExploration
-│   └── DataExploration.ipynb
-├── RNNTorch
-│   ├── RNNTorchModel.ipynb
-│   └── resources
-│       ├── model.py
-│       ├── predict.py
-│       ├── test_nn.csv
-│       ├── train.py
-│       └── train_nn.csv
-├── Report.pdf
-├── XGBoost
-│   └── XGBoostModel.ipynb
-├── data
-│   ├── price_test_xgb.csv
-│   ├── price_test_xgb.csv.out
-│   ├── price_train_xgb.csv
-│   ├── price_validation_xgb.csv
-│   ├── train.tsv
-│   └── y_price_test_xgb.csv
-└── proposal.pdf
+.
++-- README.md
++-- Report.pdf
++-- data
+|   +-- price_test_xgb.csv
+|   +-- price_test_xgb.csv.out
+|   +-- price_train_xgb.csv
+|   +-- price_validation_xgb.csv
+|   +-- y_price_test_xgb.csv
+|   +-- train.tsv
++-- DataExploration
+|   +-- DataExploration.ipynb
++-- XGBoost
+|   +-- XGBoostModel.ipynb
++-- RNNTorch
+|   +-- RNNTorchModel.ipynb
+|   +-- resources
+|       +-- model.py
+|       +-- train.py
+|       +-- predict.py
+|       +-- train_nn.csv
+|       +-- test_nn.csv
++-- proposal.pdf
+
 
 In the *DataExploration* folder, there is the corresponding notebook: *DataExploration.ipynb* where I perform a detailed data analysis, described in Section 4 in Report.pdf.
 
